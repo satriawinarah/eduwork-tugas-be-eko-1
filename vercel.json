@@ -6,7 +6,7 @@
       "use": "@now/node"
     }
   ],
-  "redirects": [
+  "rewrites": [
     { "source": "/(.*)", "destination": "app.js" }
   ],
   "headers": [
